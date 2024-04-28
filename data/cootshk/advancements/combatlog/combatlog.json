@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "CombatLog",
+        "description": "Anti Combat Log Datapack",
+        "icon": {
+            "item": "minecraft:diamond_axe",
+            "nbt": "{Enchantments:[{id:'minecraft:sharpness',lvl:5s}]}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "cootshk:global/cootshk",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

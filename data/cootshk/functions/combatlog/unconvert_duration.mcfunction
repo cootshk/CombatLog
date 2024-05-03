@@ -1,0 +1,4 @@
+execute store result score CurrentDuration CombatLogSettings run scoreboard players get Duration CombatLogSettings
+execute store result score CurrentDurationSeconds CombatLogSettings run scoreboard players get CurrentDuration CombatLogSettings
+scoreboard players operation CurrentDurationSeconds CombatLogSettings /= TicksPerSecond CombatLogSettings
+execute store result score DurationSeconds CombatLogSettings run scoreboard players get CurrentDurationSeconds CombatLogSettings
